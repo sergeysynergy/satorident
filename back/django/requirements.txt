@@ -1,0 +1,13 @@
+Django==1.11.3
+django-admin-sortable2==0.6.14
+django-appconf==1.0.2
+django-cors-headers==2.1.0
+django-imagekit==4.0.1
+django-nested-admin==3.0.19
+djangorestframework==3.6.3
+olefile==0.44
+pilkit==2.0
+Pillow==4.2.1
+python-monkey-business==1.0.0
+pytz==2017.2
+six==1.10.0

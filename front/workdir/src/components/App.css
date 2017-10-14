@@ -1,0 +1,52 @@
+.App {
+  background-color: #D2F2C2;
+  height: 100%;
+}
+
+.Header .btn {
+  position: absolute;
+  // top: -15px;
+  // left: -15px;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 0.1em 0.3em 0 0.3em;
+  line-height: 1.0em;
+}
+
+.MenuTd {
+  // border: dashed 2px green;
+  border-right: solid 2px lightgray;
+  min-width: 245px;
+  background-color: #54a554;
+}
+
+.Content {
+  margin: 0.2em auto;
+  max-width: 991px;
+}
+
+.Content .jumbotron {
+  margin: 20px 0;
+  padding: 2em;
+  background-color: #F5F4D8;
+}
+.Content .jumbotron h1 {
+  // border: dashed 1px solid;
+  margin: 0.4em auto 0.8em auto;
+
+  color: #419641;
+  font-size: 1.8em;
+}
+.Content .jumbotron h2 {
+  color: #419641;
+  font-size: 1.4em;
+}
+.Content .jumbotron p {
+  font-size: 1.0em;
+}
+.Content .jumbotron ul {
+  font-size: 1.0em;
+  text-indent: 0.5em;
+  margin-left: -2.2em;
+  list-style: inside;
+}

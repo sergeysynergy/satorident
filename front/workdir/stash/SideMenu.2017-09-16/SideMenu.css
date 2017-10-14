@@ -1,0 +1,27 @@
+.SideMenu {
+  background-color: #D2F2C2;
+}
+/*
+.SidebarMenu .Menu {
+  padding: 20px;
+  background-color: #D2F2C2;
+  height: 100%;
+}
+.SidebarMenu .Menu a:hover,
+.SidebarMenu .Menu a:visited,
+.SidebarMenu .Menu a {
+  font-size: 1.2em;
+}
+.SidebarMenu .Menu .btn {
+  // padding: 0.6em 2.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+*/
+.SideMenu table {
+  width: 100%;
+}
+.SideMenu td {
+  border: dashed 1px green;
+  vertical-align: top;
+}

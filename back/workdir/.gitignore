@@ -1,0 +1,8 @@
+*.pyc
+.~lock.*
+__pycache__/
+
+_tmp/
+
+local_settings.py
+prod.sqlite3

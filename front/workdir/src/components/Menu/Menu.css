@@ -1,0 +1,50 @@
+.Menu {
+  width: auto;
+  max-width: 400px;
+  width: 100%;
+}
+/*
+.Menu .Parent .Main,
+.Menu .Link {
+  padding: 8px 10px 6px 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 22px;
+  cursor: pointer;
+}
+.Menu .Icon {
+  float: left;
+  margin-right: 10px;
+}
+*/
+
+.Menu .Row {
+  // border: dashed 1px orange;
+  // padding: 0px 0px 0px 16px;
+}
+.Menu .Item {
+  display: block;
+  padding: 8px 5px 6px 12px;
+  color: white;
+  text-decoration: none;
+  line-height: 22px;
+  cursor: pointer;
+}
+.Menu .Active {
+  background-color: orange;
+}
+.Menu .Icon {
+  float: left;
+  margin-right: 10px;
+}
+.Menu .More {
+  float: right;
+  padding-right: 0px;
+}
+
+/* hover effects */
+
+.Menu .Item:hover {
+  background-color: #459345;
+}

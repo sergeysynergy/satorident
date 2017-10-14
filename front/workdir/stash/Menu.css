@@ -1,0 +1,34 @@
+.Zmodal {
+  border: dashed 1px green;
+  // background-color: #419641;
+  // height: 100%;
+  // padding: 20px;
+  // color: white;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.Zmodal .modal-open {
+  border: dashed 1px green;
+  margin: 0;
+  padding: 0;
+}
+.Zmodal .modal-dialog {
+  // display: none;
+  margin: -1px 0 0 -1px;
+  padding: 0;
+  // border: none;
+  border-radius: 0;
+}
+.Zmodal .modal-content {
+  border-radius: 0;
+}
+.Zmodal .custom-modal {
+  border: dashed 10px green;
+  // display: none;
+}
+.Zmodal .MyModal {
+  width: 10em;
+  height: 10em;
+  border: dashed 10px green;
+}

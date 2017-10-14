@@ -1,0 +1,23 @@
+version: '2'
+services:
+  backdjango:
+    container_name: satorident_backdjango
+    build: ./back/django/.
+    ports:
+      - "21016:8000"
+    volumes:
+      - ./back/workdir:/workdir
+    command: /bin/bash fake-daemon.sh
+    # command: /bin/bash dev.sh
+
+  frontnodejs:
+    container_name: satorident_frontnodejs
+    build:
+      context: ./front
+      dockerfile: ./nodejs/Dockerfile
+    volumes:
+      - ./front/workdir:/workdir
+    ports:
+      - "21026:3000"
+    # command: npm run server
+    command: /bin/bash fake-daemon.sh

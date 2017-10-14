@@ -1,0 +1,53 @@
+.Header {
+  // border: dashed 1px green;
+  background-color: #F5F4D8;
+  // height: 150px;
+  padding: 20px;
+  color: black;
+  font-size: 1.2em;
+}
+
+.Header .container,
+.Header .show-grid {
+  max-width: 980px;
+  // border: dashed 1px green;
+}
+
+.Header div {
+  // border: dashed 1px green;
+}
+
+.Header .One {
+  // text-align: center;
+}
+.Header .One .Logo {
+  // text-align: center;
+}
+
+
+.Header .Two {
+  // border: dashed 1px green;
+  // margin: 0;
+  // padding: 0;
+  font-size: 1.0em;
+  color: #13973C;
+}
+.Header .Two .Brand {
+  // text-align: center;
+  color: #13973C;
+  font-size: 2.0em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.Header .Two .Brand a:link,
+.Header .Two .Brand a:visited,
+.Header .Two .Brand a {
+  color: #337AB7;
+}
+
+.Header .Three,
+.Header .Four {
+  // border: dashed 1px green;
+  // margin: 0;
+  // padding: 0;
+}

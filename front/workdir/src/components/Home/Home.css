@@ -1,0 +1,63 @@
+.Home {
+  // border: dashed 1px green;
+  // max-width: 991px;
+  background-color: #D2F2C2;
+  // height: 150px;
+  padding: 20px 0;
+  color: black;
+  font-size: 1.2em;
+}
+.Home .container,
+.Home .show-grid {
+  max-width: 991px;
+}
+
+.Home .Text .jumbotron {
+  margin: 20px 0;
+  background-color: #F5F4D8;
+}
+.Home .Text .jumbotron p {
+  font-size: 1.0em;
+}
+.Home .Text .jumbotron h2 {
+  color: #419641;
+  font-size: 1.4em;
+}
+.Home .Text .jumbotron ul {
+  font-size: 1.0em;
+  text-indent: 0.5em;
+  margin-left: -2.2em;
+  list-style: inside;
+}
+
+
+.Home div {
+  // border: dashed 1px green;
+}
+
+.Home .One {
+  // text-align: center;
+  // background-color: white;
+  // margin: 20px;
+}
+.Home .One .Logo {
+  // text-align: center;
+}
+
+
+.Home .Two {
+  // background-color: white;
+  // font-size: 1.2em;
+  // color: #13973C;
+}
+.Home .Two .Brand {
+  // text-align: center;
+  color: #13973C;
+  font-size: 1.6em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.Home .Two .Map {
+  // height: 320px;
+  // margin: 20px;
+}

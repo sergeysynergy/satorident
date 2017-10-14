@@ -1,0 +1,13 @@
+.Bottom {
+  // border: dashed 1px green;
+  // background-color: #419641;
+  background-color: #F5F4D8;
+  // height: 100%;
+  // padding: 0 auto;
+  // margin: 0;
+  color: black;
+  // font-size: 1.2em;
+}
+.Bottom a {
+  text-decoration: underline;
+}
